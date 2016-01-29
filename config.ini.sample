@@ -1,0 +1,11 @@
+[debug]
+debug = true
+use_beanstalk = true
+
+[beanstalk]
+url = 127.0.0.1
+tube = "tube-name"
+
+[app]
+name = ""
+max_retries = 5
